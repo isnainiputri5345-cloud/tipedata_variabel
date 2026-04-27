@@ -1,12 +1,22 @@
 <?php
-function salam()
+function intro()
 {
-    echo "assalamualaikum";
-    echo "<br><br>today we learned about function for php language, function ini berfungsi untuk membuat sebuah fungsi untuk digunakan berkali-kali.
-    so kita belajar buat function and this is first function";
+    $nama = "isnaini putri";
+    $umur = 19;
+    $tinggi = 151.2;
+    $kelas = "TI b Semester  4";
+    $nim = "24TI058";
+    echo "<br><br> Assalamualaikum wr wb.";
+    echo "<br><br> Hallo everyone welcome to the my website. this is website aims to learn how to create a website using
+    the PHP programming language. Let me introduce myself, my name is $nama, i am $umur years old, i am $tinggi cm tall,
+    my class is $kelas, my NIM is $nim , i am from Tangar Vilage.";
+    echo "<br><br> Today we learn about functions. do you know function?";
+    echo " <br><br> Fungsi (function) pada PHP adalah blok kode terstruktur yang dirancang untuk melakukan tugas tertentu, 
+    dapat digunakan kembali (reusable), dan dipanggil berulang kali tanpa menulis ulang instruksi di dalamnya.
+     Fungsi memudahkan pengelolaan, meningkatkan efisiensi, dan merapikan kode program.";
 }
 
-salam();
+intro();
 echo "<br><br>=================================================================";
 
 function tambah(int $a, int $b)
@@ -14,16 +24,15 @@ function tambah(int $a, int $b)
     $jumlah = $a + $b;
     echo "<br><br>";
     echo $jumlah;
-    echo "<br><br> this is function for Penjumlahan ";
+    echo "<br><br> this is function for Penjumlahan";
 }
-echo "<br><br>=================================================================";
 
 function kali(int $a, int $b)
 {
     $jumlah = $a * $b;
     echo "<br><br>";
     echo $jumlah;
-    echo "<br><br> this is function the second for Perkalian";
+    echo "<br><br> this is function for Perkalian";
 }
 
 function bagi(int $a, int $b)
@@ -31,16 +40,15 @@ function bagi(int $a, int $b)
     $jumlah = $a / $b;
     echo "<br><br>";
     echo $jumlah;
-    echo "<br><br> this is function the second for Pembagian ";
+    echo "<br><br> this is function for Pembagian";
 }
-
 
 function kurang(int $a, int $b)
 {
     $jumlah = $a - $b;
     echo "<br><br>";
     echo $jumlah;
-    echo "<br><br> this is function the second for Pengurangan";
+    echo "<br><br> this is function for Pengurangan";
 }
 
 ?>
